@@ -9,8 +9,34 @@
     .hamburger{
         display: block;
     }
+    .banner-container{
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .banner-title{
+        text-align: left;
+        font-size: 1.8rem;
+    }
+    .banner-small-tag-1{
+        padding: 5px 8px;
+        top: 520px;
+        left: -0.01px;
+    }
+    .banner-small-tag-2{
+        padding: 5px 18px;
+        top: 330px;
+        right: 20px;
+    }
+    .views{
+        font-size: 1rem;
+    }
 }
 
+/* Medium Device */
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav{
         padding: 50px;
@@ -21,4 +47,15 @@
     .hamburger{
         display: block;
     }
+    .banner-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .banner-small-tag-1{
+        display: none;
+    }
+    .banner-small-tag-2{
+        display: none;
+    }
+    
 }

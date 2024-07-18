@@ -1,5 +1,6 @@
-/* Font */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
 * {
 
@@ -10,34 +11,45 @@ body {
     background-color: black;
 }
 
+.description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
 .btn-primary {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: none;
-    padding: 10px 24px;
+    padding: 8px 20px;
 }
-
 .btn-secondary {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 1rem;
+    font-size:0.8rem;
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 42px;
-    padding: 10px 24px;
-    margin-left: 20px;
+    padding: 8px 20px;
+    margin-left: 10px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+}
+.btn-secondary:hover{
+    cursor: pointer;
 }
 
 /* header section styles */
 .header {
     max-width: 1300px;
     margin: 0 auto;
-    border: 2px solid blueviolet;
-    height: 90vh;
+    background: linear-gradient(-90.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.2)100%);
 }
 
 .nav {
@@ -53,7 +65,7 @@ body {
     font-family: Inter;
     font-size: 2rem;
     font-weight: 800;
-    margin: 0px;
+
 }
 
 .nav-links {
@@ -84,12 +96,90 @@ body {
 
 .hamburger {
     color: white;
-    /* display: none; */
+    display: none;
+}
+
+/* Banner */
+.banner-container {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 500px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    
+}
+
+.banner-content {
+    /* width: 50%; */
 }
 
 .banner-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.shape-style {
+    font-family: "Sevillana";
+}
+.banner-img{
+    
+}
+
+.banner-img img {
+    width: 86%;
+}
+
+.banner-small-tag-1 {
+    width: full;
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+    /* left: 500px; */
+    left: 800px;
+}
+.banner-small-tag-2 {
+    width: full;
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    position: absolute;
+    top: 140px;
+    /* left: 220px; */
+    right: 80px;
+}
+
+.red-circle {
+    width: 35px;
+    height: 35px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.views {
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.views-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-weight: 400;
 }
