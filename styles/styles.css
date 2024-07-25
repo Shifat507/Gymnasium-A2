@@ -6,7 +6,7 @@
 
 * {
     font-family: Inter;
-    margin: 0 auto;
+    margin: 0;
 }
 
 body {
@@ -112,11 +112,9 @@ body {
 
 /* Banner */
 .banner-container {
-    /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 500px; */
     padding-left: 100px;
     padding-right: 100px;
     position: relative;
@@ -156,7 +154,6 @@ body {
     border-radius: 10px;
     position: absolute;
     top: 350px;
-    /* left: 500px; */
     left: 800px;
 }
 
@@ -171,7 +168,6 @@ body {
     border-radius: 10px;
     position: absolute;
     top: 140px;
-    /* left: 220px; */
     right: 80px;
 }
 
