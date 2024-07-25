@@ -1,5 +1,8 @@
 /* Mobile Device: */
 @media screen and (max-width:576px) {
+    .heading{
+        font-size: 2rem;
+    }
     .nav{
         padding: 30px;
     }
@@ -21,6 +24,9 @@
         text-align: left;
         font-size: 1.8rem;
     }
+    .btn-primary, .btn-secondary{
+        font-size: 1rem;
+    }
     .banner-small-tag-1{
         padding: 5px 8px;
         top: 520px;
@@ -39,6 +45,8 @@
     }
     .running-banner-container{
         flex-direction: column;
+        padding: 30px;
+        /* width: 100%; */
     }
     .join-now-btn-container{
         text-align: center;
@@ -47,8 +55,11 @@
         padding: 10px 80px;
     }
     .run-img img {
-        width: 250px;
+        width: 300px;
         border-radius: 16px;
+    }
+    .cards{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -83,5 +94,9 @@
     }
     .run-img img{
         width: 300px;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
     }
 }
