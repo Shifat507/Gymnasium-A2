@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
 * {
-
     font-family: Inter;
 }
 
@@ -27,10 +26,11 @@ body {
     border: none;
     padding: 8px 20px;
 }
+
 .btn-secondary {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size:0.8rem;
+    font-size: 0.8rem;
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
     background-color: transparent;
@@ -38,10 +38,12 @@ body {
     padding: 8px 20px;
     margin-left: 10px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     cursor: pointer;
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
     cursor: pointer;
 }
 
@@ -109,7 +111,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     position: relative;
-    
+
 }
 
 .banner-content {
@@ -127,9 +129,8 @@ body {
 .shape-style {
     font-family: "Sevillana";
 }
-.banner-img{
-    
-}
+
+.banner-img {}
 
 .banner-img img {
     width: 86%;
@@ -149,6 +150,7 @@ body {
     /* left: 500px; */
     left: 800px;
 }
+
 .banner-small-tag-2 {
     width: full;
     background: rgba(48, 48, 48, 0.54);
@@ -177,9 +179,48 @@ body {
     font-size: 1.7rem;
     font-weight: 700;
 }
-.views-description{
+
+.views-description {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 0.5rem;
     font-weight: 400;
+}
+
+/* Good Habits Styles */
+.change-habit-container{
+    margin: 0 auto;
+}
+.change-habit-content{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.change-habit-content h2{
+    color: white;
+    font-size: 2rem;
+  
+}
+.habits{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.habit {
+    text-align: center;
+}
+.habit h4{
+    margin-bottom: 0px;
+}
+.habit img {
+    border-radius: 50%;
+}
+
+.habit h4 {
+    font-size: medium;
+    color: white;
 }

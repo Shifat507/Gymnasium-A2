@@ -34,6 +34,9 @@
     .views{
         font-size: 1rem;
     }
+    .habits{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Medium Device */
@@ -57,5 +60,7 @@
     .banner-small-tag-2{
         display: none;
     }
-    
+    .habits{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
