@@ -25,7 +25,8 @@
         font-size: 1.8rem;
     }
     .btn-primary, .btn-secondary{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        font-weight: 400;
     }
     .banner-small-tag-1{
         padding: 5px 8px;
@@ -60,6 +61,34 @@
     }
     .cards{
         grid-template-columns: 1fr;
+    }
+    .card{
+        width: 280px;
+    }
+    .card-container{
+        padding: 0px;
+    }
+    .cal-heading{
+        padding: 15px;
+    }
+    .calculation-container{
+        width: 100%;
+        padding: 0px;
+
+        margin: 0 auto;
+    }
+    .BMI-chart{
+        padding: 15px;
+    }
+    .calculate-BMI{
+        padding: 15px;
+    }
+    .cal-content{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+    .form-container{
+        max-width: 300px;
     }
 }
 
@@ -98,5 +127,12 @@
     .cards{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
+    }
+    .calculation-container{
+        padding: 10px;
+    }
+    .cal-content{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
     }
 }
