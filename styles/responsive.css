@@ -120,6 +120,9 @@
         padding: 10px;
         text-align: center;
     }
+    .logo{
+        font-size: 3rem;
+    }
 }
 
 /* Medium Device */
