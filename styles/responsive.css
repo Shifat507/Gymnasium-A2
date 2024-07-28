@@ -90,6 +90,20 @@
     .form-container{
         max-width: 300px;
     }
+    .members{
+        grid-template-columns: 1fr;
+    }
+    .member-img img {
+        width: 260px;
+        height: 270px; 
+    }
+    .member-container{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .team-container{
+        margin-top: 50px;
+    }
 }
 
 /* Medium Device */
@@ -134,5 +148,16 @@
     .cal-content{
         grid-template-columns: 1fr;
         row-gap: 50px;
+    }
+    .member-img img {
+        width: 220px;
+        height: 200px; 
+    }
+    .member-container{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .team-container{
+        margin-top: 50px;
     }
 }

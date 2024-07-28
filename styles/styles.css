@@ -344,12 +344,13 @@ body {
 }
 
 /* calculation BMI style */
-.calculation-container{
+.calculation-container {
     margin-bottom: 100px;
     padding: 50px 180px;
     background: rgb(34, 34, 34);
 }
-.cal-content{
+
+.cal-content {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 45% 55%;
@@ -360,6 +361,7 @@ body {
 .cal-heading {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .cal-heading>h1 {
@@ -416,14 +418,18 @@ td {
     max-width: 500px;
     margin: auto;
 }
-.form-container > div {
+
+.form-container>div {
     display: flex;
     align-items: center;
 }
+
 .form-container .item-5 {
     grid-column: span 2;
 }
-input, select {
+
+input,
+select {
     width: 100%;
     padding: 10px 20px;
     border-radius: 8px;
@@ -435,11 +441,61 @@ input, select {
     font-weight: 400;
 }
 
-select option{
+select option {
     background-color: rgb(100, 100, 100);
     width: 100%;
     color: rgba(255, 255, 255, 0.6);
 }
-/* select{
-    width: 96%;
+/* .team-container{
+    margin-top: 50px;
 } */
+.team-container {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.team-heading {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.member-container {
+    margin-top: 100px;
+}
+
+.members {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.member {
+    margin: 0 auto;
+    position: relative;
+}
+
+.member-img img {
+    width: 340px;
+    height: 270px;
+    border-radius: 18px;
+}
+
+.member-designation {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+.member-designation h3 {
+    color: white;
+    font-weight: 600;
+}
+
+.member-designation p {
+    color: lightgray;
+    font-weight: 400;
+}
