@@ -41,6 +41,14 @@
         top: 330px;
         right: 20px;
     }
+    .red-circle{
+        display: none;
+    }
+    .play-icon{
+        display: block;
+        color: rgb(230, 83, 60);
+        font-size: 2rem;
+    }
     .views{
         font-size: 1rem;
     }
@@ -50,6 +58,8 @@
     .running-banner-container{
         flex-direction: column;
         padding: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .join-now-btn-container{
@@ -59,14 +69,14 @@
         padding: 10px 80px;
     }
     .run-img img {
-        width: 300px;
+        width: 250px;
         border-radius: 16px;
     }
     .cards{
         grid-template-columns: 1fr;
     }
     .card{
-        width: 280px;
+        width: 260px;
     }
     .card-container{
         padding: 0px;
